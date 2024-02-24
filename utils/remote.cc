@@ -264,7 +264,7 @@ auto constexpr Options = std::array<tr_option, 98>{
       { 965, "path", "Provide path for rename functions", nullptr, true, "<path>" },
       { 'm', "portmap", "Enable portmapping via NAT-PMP or UPnP", "m", false, nullptr },
       { 'M', "no-portmap", "Disable portmapping", "M", false, nullptr },
-      { 'n', "auth", "Set username and password", "n", true, "<user:pw>" },
+      { 'n', "auth", "Set username and password", "n", false, "<user:pw>" },
       { 810, "authenv", "Set authentication info from the TR_AUTH environment variable (user:pw)", "ne", false, nullptr },
       { 'N', "netrc", "Set authentication info from a .netrc file", "N", true, "<file>" },
       { 820, "ssl", "Use SSL when talking to daemon", nullptr, false, nullptr },
